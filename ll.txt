@@ -1,0 +1,26 @@
+rpm-ostree install umu-launcher
+
+systemctl reboot
+
+
+
+
+
+flatpak install flathub com.steamgriddb.SGDBoop
+
+flatpak run com.steamgriddb.SGDBoop
+
+systemctl reboot
+
+https://www.steamgriddb.com/boop?utm_source=chatgpt.com
+
+
+
+
+
+
+
+
+
+
+WINEDLLOVERRIDES="OnlineFix64=n;SteamOverlay64=n;winmm=n,b;dnet=n;steam_api64=n;winhttp=n,b" %command%.
